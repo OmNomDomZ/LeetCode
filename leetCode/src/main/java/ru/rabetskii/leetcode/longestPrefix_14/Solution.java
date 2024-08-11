@@ -1,10 +1,5 @@
 package ru.rabetskii.leetcode.longestPrefix_14;
 
-import java.util.Objects;
-
-//TODO
-//код не рабочий, проходит 32/126 тестов
-
 public class Solution {
     public String longestCommonPrefix(String[] strs) {
 
@@ -12,35 +7,38 @@ public class Solution {
             return strs[0];
         }
 
-        int answer = -1;
-        String first = strs[0];
-        if (Objects.equals(first, "")) {
-            return first;
+        if (strs[0].isEmpty()) {
+            return "";
         }
+        String first = strs[0];
 
-        for (int i = 1; i < strs.length; ++i){
-            if (Objects.equals(strs[i], "")){
-                answer = -1;
-                break;
+        int answer = 100;
+
+        for (int i = 1; i < strs.length; ++i) {
+            if (strs[i].isEmpty()) {
+                return "";
             }
-            for (int j = 0; j < strs[i].length(); j++) {
+            int answer2 = 0;
+
+            int len = Math.min(first.length(), strs[i].length());
+
+            for (int j = 0; j < len; ++j) {
                 if (first.charAt(j) != strs[i].charAt(j)) {
-                    answer = j - 1;
                     break;
                 }
-                answer = j;
+                answer2 += 1;
             }
-            if (strs[i].length() <= answer) {
-                answer = strs[i].length();
+
+            if (answer2 < answer){
+                answer = answer2;
             }
         }
 
-        if (answer == -1){
+        if (answer == 0) {
             return "";
-        } else if (answer == 0){
-            return first.substring(0, 1);
-        }else {
-            return first.substring(0, answer + 1);
+        } else {
+            return first.substring(0, answer);
         }
+
     }
 }
