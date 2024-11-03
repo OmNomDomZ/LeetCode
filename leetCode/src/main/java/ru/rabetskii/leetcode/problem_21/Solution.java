@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.mergeTwoSortedLists_21;
+package ru.rabetskii.leetcode.problem_21;
 
 public class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

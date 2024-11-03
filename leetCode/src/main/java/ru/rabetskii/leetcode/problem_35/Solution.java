@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.searchInsertPosition_35;
+package ru.rabetskii.leetcode.problem_35;
 
 public class Solution {
     public int searchInsert(int[] nums, int target) {

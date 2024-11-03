@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.AddTwoNumbers_2;
+package ru.rabetskii.leetcode.problem_2;
 
 public class ListNode {
     int val;

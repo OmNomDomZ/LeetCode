@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.removeDuplicatesFromSortedArray_26;
+package ru.rabetskii.leetcode.problem_26;
 
 import java.util.HashMap;
 import java.util.Map;

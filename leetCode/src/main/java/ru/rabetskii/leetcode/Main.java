@@ -1,13 +1,16 @@
 package ru.rabetskii.leetcode;
 
-import ru.rabetskii.leetcode.longestPrefix_14.Solution;
+import ru.rabetskii.leetcode.problem_6.*;
 
 public class Main {
     public static void main(String[] args) {
-        String[] strs = {"aaa","aa","aaa"};
+        String s = "A";
+        int n = 1;
+
 
         Solution solution = new Solution();
-        String string = solution.longestCommonPrefix(strs);
-        System.out.println(string);
+        String answer = solution.convert(s, n);
+
+        System.out.println(answer);
     }
 }

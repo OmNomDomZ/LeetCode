@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.lengthOfTheLastWord_58;
+package ru.rabetskii.leetcode.problem_58;
 
 public class Solution {
     public int lengthOfLastWord(String s) {

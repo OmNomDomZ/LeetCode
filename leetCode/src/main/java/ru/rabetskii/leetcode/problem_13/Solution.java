@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.romanToInt_13;
+package ru.rabetskii.leetcode.problem_13;
 
 import java.util.HashMap;
 import java.util.Map;

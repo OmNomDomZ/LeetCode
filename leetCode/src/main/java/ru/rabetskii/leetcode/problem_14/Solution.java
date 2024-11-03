@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.longestPrefix_14;
+package ru.rabetskii.leetcode.problem_14;
 
 public class Solution {
     public String longestCommonPrefix(String[] strs) {

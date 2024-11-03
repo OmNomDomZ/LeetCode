@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.plusOne_66;
+package ru.rabetskii.leetcode.problem_66;
 
 public class Solution {
     public int[] plusOne(int[] digits) {

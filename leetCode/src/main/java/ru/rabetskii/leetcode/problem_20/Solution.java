@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.validParentheses_20;
+package ru.rabetskii.leetcode.problem_20;
 
 import java.util.Stack;
 

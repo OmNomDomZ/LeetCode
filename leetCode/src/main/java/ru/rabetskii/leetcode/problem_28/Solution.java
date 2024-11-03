@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.FindIndexFirstOccurrenceInString_28;
+package ru.rabetskii.leetcode.problem_28;
 
 public class Solution {
     public int findFirstOccurrenceInString(String haystack, String needle) {

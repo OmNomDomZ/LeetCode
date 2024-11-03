@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.twoSum_1;
+package ru.rabetskii.leetcode.problem_1;
 
 import java.util.HashMap;
 import java.util.Map;

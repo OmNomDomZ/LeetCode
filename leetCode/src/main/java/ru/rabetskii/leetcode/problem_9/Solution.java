@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.palindromeNumber_9;
+package ru.rabetskii.leetcode.problem_9;
 
 public class Solution {
     public boolean isPalindrome(int x){

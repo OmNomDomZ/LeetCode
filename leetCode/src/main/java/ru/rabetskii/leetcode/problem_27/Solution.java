@@ -1,4 +1,4 @@
-package ru.rabetskii.leetcode.removeElement_27;
+package ru.rabetskii.leetcode.problem_27;
 
 import java.util.Arrays;
 import java.util.HashMap;
